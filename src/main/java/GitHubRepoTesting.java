@@ -5,9 +5,10 @@ public class GitHubRepoTesting {
         int b = 8;
         System.out.println("a = " + a + " b = " + b);
 
-        int c = a;
-        a = b;
-        b = c;
+        a = a + b;
+        b = a - b;
+        a = a - b;
+
         System.out.println("a = " + a + " b = " + b);
 
     }
